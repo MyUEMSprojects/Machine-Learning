@@ -1,0 +1,40 @@
+# Dependências Python dos exemplos (instale só o que precisar; cada script indica no topo o que usa).
+# Sugestão:  python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+# PyTorch só CPU (menor):  pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# --- núcleo (módulos 00–04, 10) ---
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+scikit-image
+pillow
+joblib
+statsmodels        # séries temporais
+optuna             # otimização bayesiana / hiperparâmetros
+shap               # interpretabilidade
+pymc               # inferência bayesiana (MCMC/NUTS)
+arviz
+hmmlearn           # HMM (opcional)
+
+# --- deep learning (módulos 05–09) ---
+torch
+torchvision
+gymnasium          # ambientes de RL (CartPole)
+
+# --- NLP (módulo 08) ---
+gensim
+transformers
+tokenizers
+peft
+accelerate
+sentencepiece
+tiktoken
+protobuf
+# sentence-transformers   # opcional (embeddings de sentenças)
+
+# --- MLOps (módulo 10) ---
+fastapi
+uvicorn
+httpx

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+# binários compilados e artefatos gerados
+*.o
+*.out
+*.exe
+*.png
+build/
+data/
+artefatos/
